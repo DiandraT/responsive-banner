@@ -1,5 +1,5 @@
 html {
-  font-family: "Georgia", sans-serif;
+  font-family: Georgia, serif;
 }
 
 .content {
@@ -16,4 +16,23 @@ html {
   border: 3px solid #efefef;
   background-color: #efefef;
   color: #495562;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-image {
+    background-image: linear-gradient(rgba(73, 85, 98, .9), rgba(73, 85, 98, .9)), url("../images/earth-horizon.jpg");
+    position: absolute;
+  }
+
+  .content {
+    position: relative;
+    top: 600px;
+    background: rgba(73, 85, 98, .1);
+  }
+
+  .btn {
+    border: 3px solid #fff;
+  }
+
 }
